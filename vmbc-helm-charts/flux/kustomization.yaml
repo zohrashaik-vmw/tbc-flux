@@ -3,5 +3,6 @@ kind: Kustomization
 generatorOptions:
   disableNameSuffixHash: true
 resources:
+- namespace.yaml
 - helm-repo.yaml
 - helm-release.yaml

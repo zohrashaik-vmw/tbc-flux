@@ -2,8 +2,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: privatebin
-  namespace: privatebin
+  name: tanzu-blockchain-repo
+  namespace: tanzu-blockchain
 spec:
   interval: 1m0s
   url: https://github.com/zohrashaik-vmw/tbc-flux/vmbc-helm-charts
