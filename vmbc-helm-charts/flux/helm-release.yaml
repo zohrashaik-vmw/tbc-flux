@@ -10,7 +10,7 @@ spec:
       chart: vmbc
       sourceRef:
         kind: HelmRepository
-        name: tanzu-blockchain
+        name: tanzu-blockchain-repo
         namespace: tanzu-blockchain
       interval: 1m
   test:
