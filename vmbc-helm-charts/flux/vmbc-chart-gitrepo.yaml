@@ -1,0 +1,18 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  creationTimestamp: "2023-01-26T19:16:19Z"
+  name: vmbc-chart-gitrepo
+  namespace: tanzu-blockchain
+spec:
+  gitImplementation: go-git
+  interval: 5m0s
+  ref:
+    branch: main
+  timeout: 60s
+  url: https://github.com/vmware-samples/vmware-blockchain-samples
+  ignore: |
+    # exclude all
+    /*
+    # include charts directory
+    !/vmbc-ethereum/vmbc-deployment/vmbc-four-node-one-client-deployment/
