@@ -4,4 +4,5 @@ generatorOptions:
   disableNameSuffixHash: true
 resources:
 - namespace.yaml
+- vmbc-chart-gitrepo.yaml
 - helm-release.yaml
