@@ -7,11 +7,11 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: vmbc-helm-charts
+      chart: vmbc-ethereum/vmbc-deployment/vmbc-four-node-one-client-deployment
       sourceRef:
         kind: GitRepository
-        name: tanzu-blockchain-repo
-        namespace: tanzu-continuousdelivery-resources
+        name: vmbc-chart-gitrepo
+        namespace: tanzu-blockchain
       interval: 1m
   test:
     enable: true
