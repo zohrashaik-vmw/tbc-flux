@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: tanzu-blockchain-repo
-        namespace: tanzu-blockchain
+        namespace: tanzu-continuousdelivery-resources
       interval: 1m
   test:
     enable: true
