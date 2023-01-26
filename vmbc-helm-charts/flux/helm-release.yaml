@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: vmbc
+      chart: vmbc-helm-charts
       sourceRef:
         kind: GitRepository
         name: tanzu-blockchain-repo
